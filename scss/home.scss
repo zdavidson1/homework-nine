@@ -1,0 +1,228 @@
+.home-wrapper {
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+
+    .image {
+        height: 400px;
+        width: 100%;
+        background-image: url(../imgaes/hero\ \(1\).jpg);
+        color: white;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        h1 {
+            padding-top: 8%;
+            font-size: 500%;
+            font-family: serif;
+        }
+    
+    }
+
+    .home-text {
+        padding: 20px;
+        font-size: 170%;
+    }
+
+}
+
+.home-images-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    height: 400px;
+    width: 90%;
+    margin-top: 25%;
+
+
+    .home-image1 {
+        height: 300px;
+        width: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../imgaes/Indianapolis-Colts-Logo.png);
+    }
+
+    .home-image2 {
+        height: 300px;
+        width: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../imgaes/Houston-Texans-logo.png);
+    }
+
+    .home-image3 {
+        height: 300px;
+        width: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../imgaes/Dallas_Cowboys.svg.png);
+}
+}
+
+.about-wrapper {
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 4%;
+
+    h1 {
+        text-decoration: underline;
+    }
+
+    .about-image {
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(../imgaes/Stick-Figures-Work-Group-Team-People-Stick-Man-1872378.png);
+        margin-top: 30px;
+    }
+
+    .about-text {
+        margin-top: 2%;
+        margin-left: 11%;
+        margin-right: 11%;
+        font-family: serif;
+        font-size: 150%;
+    }
+}
+
+.products-wrapper {
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2%;
+
+    h1 {
+        text-decoration: underline;
+    }
+
+    .product-images {
+        height: 350px;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 3%;
+
+        .product1 {
+            height: 300px;
+            width: 300px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(../imgaes/jaguars.png);
+        }
+
+        .product2 {
+            height: 300px;
+            width: 300px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url(../imgaes/philadelphia-eagles-logo-018F9784F0-seeklogo.com.png);
+        }
+
+        .product3 {
+            height: 250px;
+            width: 350px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../imgaes/carolina-panthers-logo-transparent.png);
+
+        }
+
+        }
+    }
+
+    .product-images2 {
+        height: 350px;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 3%;
+
+        .product4 {
+            height: 300px;
+            width: 350px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(../imgaes/cards.png);
+        }
+
+        .product5 {
+            height: 300px;
+            width: 300px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(../imgaes/st\,small\,507x507-pad\,600x600\,f8f8f8.jpg);
+        }
+
+        .product6 {
+            height: 300px;
+            width: 300px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../imgaes/steelers.jpg);
+
+        }
+
+        }
+    
+.contact-wrapper {
+            height: 100%;
+            margin: 0 auto;
+            text-align: center;
+
+            .contact-form {
+                margin-top: 40px;
+            }
+
+            .learn-more {
+                height: 60px;
+                    width: 14%;
+                    background-color: #79ADDC;
+                    font-size: medium;
+                    padding-top: 22px;
+                    color: white;
+                    text-align: center;
+                    margin: 0 auto;
+                        text-transform: uppercase; }
+        
+           .contact-hero {
+            height: 341px;
+            width: 1023px;
+            margin: 0 auto;
+            background-position: center;
+            background-size: cover;
+            // background-repeat: no-repeat;
+            background-image: url(../imgaes/contact-us-hero.jpg);
+           }
+
+          
+        }
+
+        input[type="text"] {
+            width: 80%;
+            height: 60px;
+            padding: 10px;
+            font-size: 18px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            display: table-cell;
+            vertical-align: top;
+          }
+          
+          input[type="text"]::placeholder {
+            color: black;
+          }
